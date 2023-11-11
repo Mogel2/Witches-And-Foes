@@ -1,0 +1,27 @@
+import random
+
+def home_escape_quest_game():
+print("Welcome to the Home Escape Quest!")
+print("Your mission is to escape from the mysterious house by solving puzzles and finding clues.")
+
+puzzles = [
+"You find a locked chest with a 4-digit combination. The hint says: 'My first digit is one less than my second digit. My third digit is the sum of the first two digits. My fourth digit is one more than my second digit.' What is the combination?",
+"You come across a riddle: 'I speak without a mouth and hear without ears. I have no body, but I come alive with the wind.' What am I?",
+"In the dimly lit room, you find a torn piece of paper with a message: 'The key to freedom is hidden where the heart of the home lies.' Where should you search?"
+]
+
+answers = ["3212", "echo", "kitchen"]
+
+score = 0
+chosen_puzzles = random.sample(puzzles, 2) # 
+for i in range(len(chosen_puzzles)):
+answer = input(chosen_puzzles[i] + " ").lower()
+if answer == answers[i]:
+print("Correct! You're one step closer to escaping.")
+score += 1
+else:
+print("Incorrect. Keep searching for the right answer.")
+
+print("Congratulations! You've successfully escaped the mysterious house. Your final score is:", score)
+
+home_escape_quest_game()
