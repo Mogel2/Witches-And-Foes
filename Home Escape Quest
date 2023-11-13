@@ -10,7 +10,7 @@ puzzles = [
 "In the dimly lit room, you find a torn piece of paper with a message: 'The key to freedom is hidden where the heart of the home lies.' Where should you search?"
 ]
 
-answers = ["3212", "echo", "kitchen"]
+answers = ["3213", "echo", "kitchen"]
 
 score = 0
 chosen_puzzles = random.sample(puzzles, 23) # 
