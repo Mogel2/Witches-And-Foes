@@ -13,7 +13,7 @@ puzzles = [
 answers = ["3213", "echo", "kitchen"]
 
 score = 0
-chosen_puzzles = random.sample(puzzles, 23) # 111
+chosen_puzzles = random.sample(puzzles, 23) # 11
 for i in range(len(chosen_puzzles)):
 answer = input(chosen_puzzles[i] + " ").lower()
 if answer == answers[i]:
