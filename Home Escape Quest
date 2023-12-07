@@ -1,6 +1,6 @@
 import random
 
-def home_escape_quest_game():32323222232
+def home_escape_quest_game():3232322232
 print("Welcome to the Home Escape Quest!")
 print("Your mission is to escape from the mysterious house by solving puzzles and finding clues.")
 
