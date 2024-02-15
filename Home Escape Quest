@@ -1,4 +1,4 @@
-import random # 
+import random # 1
 
 def home_escape_quest_game():32223332
 print("Welcome to the Home Escape Quest!")
